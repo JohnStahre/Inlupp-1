@@ -1,18 +1,67 @@
+/* importerar robot från google fonts font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 html, body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    font-size: 16px;
+    color: #626262
 }
 
+/* Stylar om Sociala medieikoner och går då mot a taggen */
+
+a {
+    color:  #2BAAEC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #25e6c8;
+}
+/* Containern mobile first,  */
+/* 0 i höjd 1 rem i sidled. och margin 0 i höjd och auto i sidled */
 .container {
     width: 100%;
-    margin: auto;
+    padding:0 1rem;
+    margin:0 auto;
 }
+
+/* den övre border #707070 */
+.navbar-top {
+    border-bottom: 1px solid #707070;
+    padding: 0.5rem;
+    
+}
+
+/* i navbar -top finns det en container, detta då om man inte vill flexa allt, då kommer bara containern att stylas i navbartop */
+.navbar-top .container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+/* vill bara styla översta klockan för att framtidsäkra och då gör vi på detta sätt */
+.navbar-top .container .hours i {
+   color: #2BAAEC;
+   margin-right: 0.5rem;
+   font-size: 1.2rem;
+}
+
+/* försöker få till mellanrum mellan ikonerna */
+.navbar-top .container .socialicons a {
+    margin: 0 0.5rem;
+}
+
+
 
     /* top nav */
 
@@ -35,7 +84,7 @@ html, body {
 
 /* navbar */
 .navbar {
-    padding: 0.5rem 1rem;
+    padding: 0rem 1rem;
 }
 
 .navbar .container {
@@ -49,6 +98,8 @@ html, body {
 .navbar-nav {
     display: flex;
     flex flex-direction: column;
+
+  
    
 }
 
@@ -93,6 +144,7 @@ html, body {
     background-color: #25E6C8;    
     width: 100;    
 }  
+/* kolla detta innan du lämnar in om detta var bootstrap eller fontawesome */
 .btn-primary {
     background-color: #25E6C8;
     color: whitesmoke;
