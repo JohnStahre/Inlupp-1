@@ -12,24 +12,27 @@ html, body {
 .container {
     width: 100%;
     margin: auto;
+}
 
     /* top nav */
 
 .top-nav {
     padding: 0.2rem 1 rem;
-    border-bottom: 1 px solid #333333
+    border-bottom: 1px solid #333333;
+    display:none;
+}
 
 .box-1 {
    margin: 20px 0 0 0;
 }
 
-}
+
 .text-center {
     align-items: flex;
     justify-content: space-evenly;
 }
 
-}
+
 /* navbar */
 .navbar {
     padding: 0.5rem 1rem;
@@ -47,4 +50,15 @@ html, body {
     display: flex;
     flex flex-direction: column;
    
+}
+
+/* showcase */
+
+#showcase {
+    background-image: linear-gradient(to bottom right, #DEDEDE, #DEDEDE);
+    min-height: 200px;
+}
+#showcase .container{
+    display: flex;
+    justify-content: space-evenly;
 }
