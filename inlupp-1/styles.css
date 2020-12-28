@@ -158,20 +158,21 @@ a:hover {
 }
 #showcase .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #showcase .container img{
     height: 500px;
-    font-display: none;
+    /* font-display: none; */
     margin-top: 1rem;
 }
 
 .content {
     align-self: center;
+    margin-left: 4rem;
     /* text-align: left; */
-    padding: 7rem;
-    height: 100%;
+    /* padding: 7rem;
+    height: 100%; */
 }
 
 /* .text {
