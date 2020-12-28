@@ -105,13 +105,34 @@ a:hover {
 }
 
 .navbar-nav {
-    display: flex;
-    flex-direction: column;
-    
-}
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-between;
+   padding-right: 10; */
+
+ }
+
+@media(min-width: 768px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .nav-link {
+        padding: 0 0.5rem;
+    }
+    .collapse:not( .show) {
+        display: flex;
+    }
+    .navbar-toggler {
+        display: none;
+    }
+    .container {
+        max-width: 720px;
+    }
+} 
 
 .nav-link{
-  color: color: blue;
+  color: #363636;
+  font-family: 'Roboto Slab', serif;
   }
 
 .navbar-toggler {
@@ -139,13 +160,7 @@ a:hover {
 
 
 
- .navbar-nav {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   padding-right: 10;
-
- }
+ 
    
 
 /* showcase */
