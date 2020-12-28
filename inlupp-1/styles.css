@@ -36,18 +36,18 @@ a:hover {
     padding: 0 1rem;
     margin: 0 auto;
 }
-.bg-gray {
+/* .bg-gray {
     background: #DEDEDE;
-}
+
+} */
 .btn {
     display: inline-block;
-    /* font-weight: 400; */
     text-align: center;
     vertical-align: middle;
     background-color: transparent;
     border: 1px solid transparent;
     padding: 0.75rem 2.5rem;
-    border-radius: 0.5rem;  
+   border-radius: 0.5rem; 
 }
 
 .btn-greenish {
@@ -55,9 +55,12 @@ a:hover {
     background-color: #25E6C8;
     font-weight: bold;
   }
-  /* .collapse:not(.show) {
-    display: none;
-  } */
+/* Annars kan knappen fixas enligt nedan*/
+/* .btn-primary {
+    background-color: #25E6C8;
+    color: whitesmoke;
+} */
+  
 
 /* den övre border #707070 */
 .navbar-top {
@@ -120,7 +123,10 @@ a:hover {
   }
 
 .navbar-toggler {
-    
+   font-size: 2.5rem; 
+   color: #2BAAEC;
+   background-color: transparent;
+   border: 1px solid transparent;
   }
 
 
@@ -144,16 +150,13 @@ a:hover {
 
 
 
- 
-   
-
 /* showcase */
 
 #showcase {
     background-image: linear-gradient(to bottom right, #DEDEDE, #DEDEDE);
     min-height: 200px;
 }
-#showcase .container{
+#showcase .container {
     display: flex;
     justify-content: space-evenly;
 }
@@ -161,38 +164,40 @@ a:hover {
 #showcase .container img{
     height: 500px;
     font-display: none;
+    margin-top: 1rem;
 }
 
 .content {
     align-self: center;
-    /* text-align: center; */
+    /* text-align: left; */
     padding: 7rem;
     height: 100%;
 }
 
-.text {
+/* .text {
 
     margin-bottom: 3rem;
-    /* margin-top: 0.5rem; */
+    margin-top: 0.5rem;
+    color: #363636;
+    
+} */
+
+.container .text h1 {
+    color: #363636;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3.0rem;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 3rem;
+    margin-top: 0.5rem;
+
+}
+.container .text p {
+    font-size: 0.9;
+    margin: 2rem 0;
     
 }
-.btn {
-    padding: 0.75rem 2.5rem;  
-    border-radius: 0.5rem;    
-    border: 1px solid transparent;    
-    outline: none;    
-    cursor: pointer;    
-    display: inline-block;    
-    font-weight: 600;    
-    font-size: 1rem;    
-    background-color: #25E6C8;    
-    width: 100;    
-}  
-/* kolla detta innan du lämnar in om detta var bootstrap eller fontawesome */
-/* .btn-primary {
-    background-color: #25E6C8;
-    color: whitesmoke;
-} */
+
 @media(min-width: 768px) {
     .navbar-nav {
         flex-direction: row;
