@@ -199,6 +199,18 @@ a:hover {
     
 }
 
+.footer {
+    /* display: flex-bottom; */
+    position: fixed;
+    left: 0;
+    bottom 0;
+    width: 100%;
+    background-color: #2BAAEC;
+    text-align: center;
+
+
+}
+
 @media(min-width: 768px) {
     .navbar-nav {
         flex-direction: row;
