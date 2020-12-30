@@ -158,7 +158,7 @@ a:hover {
 }
 #showcase .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 #showcase .container img{
@@ -200,14 +200,15 @@ a:hover {
 }
 
 .appointment {
-    display: flex;
+    /* display: flex; */
     width: 100%;
-    background-color: rgba(43, 170, 236, 0.8);
+    background-color: #2BAAEC;
+    opacity: 80%;
     height: 220px;
     font-family: 'Roboto Slab', serif;
     font-size: larger;
     /* text-align: center; */
-    color: rgba(243, 251, 255, 0.9);
+    color: rgba(243, 251, 255,1);
     justify-content: space-between;
 
 }
