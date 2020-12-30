@@ -219,23 +219,32 @@ a:hover {
 } */
 
 .footer {
- 
-    position: relative;
+    background-color: #2BAAEC;
+}
+
+/* .footer .copyright i { */
+.footer {
+    margin: auto;
+    padding: 1rem;
+    color: rgba(243, 251, 255, 0.6);
+    /* justify-content: center; */
+    vertical-align: center;
+    text-align: center;
+}
+
+/* .footer {
     font-family: 'Roboto', sans-serif;
     font-size: .7rem;
     width: 100%;
     background-color:#2BAAEC;
     text-align: center;
-    color: #F3FBFF;
-    font-style: opacity 60%;
-
-}
+} */
 /* den här vill jag egentligen lägga upp i footer i rade ovan, men får inte till det riktigt */
-   .copyright i {
+   /* .copyright i {
     color: #F3FBFF;
     opacity: 60%; 
 
-}
+} */
 /* försökte att få till opacity men det vill sig inte riktigt */
 /* .textfoot {
    opacity: 60; */
