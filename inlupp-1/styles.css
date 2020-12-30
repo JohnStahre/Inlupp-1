@@ -199,17 +199,47 @@ a:hover {
     
 }
 
-.footer {
-    /* display: flex-bottom; */
-    position: fixed;
-    left: 0;
-    bottom 0;
-    width: 100%;
+.appointment {
+
     background-color: #2BAAEC;
-    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    opacity: 80%;
+    font-size: larger;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+
 
 
 }
+/* /* .text-center {
+    text-align:center;
+} */
+
+.footer {
+ 
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: .7rem;
+    width: 100%;
+    background-color:#2BAAEC;
+    text-align: center;
+    color: #F3FBFF;
+    font-style: opacity 60%;
+
+}
+/* den här vill jag egentligen lägga upp i footer i rade ovan, men får inte till det riktigt */
+   .copyright i {
+    color: #F3FBFF;
+    opacity: 60%; 
+
+}
+/* försökte att få till opacity men det vill sig inte riktigt */
+/* .textfoot {
+   opacity: 60; */
+
 
 @media(min-width: 768px) {
     .navbar-nav {
