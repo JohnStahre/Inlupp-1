@@ -199,6 +199,36 @@ a:hover {
     
 }
 
+/* about us */
+
+#about-us {
+   min height: 200px;
+
+   
+}
+
+#about-us .container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#about-us .container img{
+    height: 500px;
+    /* font-display: none; */
+    margin-top: 1rem;
+
+}
+
+.content-1 {
+    align-self: right;
+    margin-left: 50rem;
+    text-align: left;
+    padding: 7rem;
+    height: 100%;
+}
+
+
 /* appointment */
 .appointment {
     display: flex;
