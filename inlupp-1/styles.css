@@ -199,7 +199,8 @@ a:hover {
     
 }
 
-.appointment  {
+/* appointment */
+.appointment {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3rem 0;
@@ -276,12 +277,14 @@ a:hover {
     .container {
         max-width: 720px;
     }
+  
 } 
 
 @media(min-width: 992px) {
     .container {
         max-width: 960px;
     }
+  
 }
 
 @media(min-width: 1200px) {
