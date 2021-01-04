@@ -131,14 +131,6 @@ a:hover {
 
 
 
-
-.text-center {
-    align-items: flex;
-    justify-content: space-evenly;
-}
-
-
-
 .navbar {
     padding: 0rem 1rem;
 }
@@ -148,7 +140,24 @@ a:hover {
     display: none;
 }
 
+/* about us */
+#about-us {
+    min-height: 200px;
+}
+#showcase .container {
+    display: flex;
+    justify-content: space-between;
+}
+#about-us .container img {
+ height: 500px;
+ margin-top: 6rem;
+ align-items: center;
+}
+/* #about-us .img {
+   align-self: center;
+   margin: left;
 
+} */
 
 /* showcase */
 
@@ -158,7 +167,7 @@ a:hover {
 }
 #showcase .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 #showcase .container img{
@@ -169,7 +178,7 @@ a:hover {
 
 .content {
     align-self: center;
-    margin-left: 4rem;
+    margin-left: 8rem;
     /* text-align: left; */
     /* padding: 7rem;
     height: 100%; */
@@ -198,36 +207,6 @@ a:hover {
     margin: 2rem 0;
     
 }
-
-/* about us */
-
-#about-us {
-   min height: 200px;
-
-   
-}
-
-#about-us .container {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-#about-us .container img{
-    height: 500px;
-    /* font-display: none; */
-    margin-top: 1rem;
-
-}
-
-.content-1 {
-    align-self: right;
-    margin-left: 50rem;
-    text-align: left;
-    padding: 7rem;
-    height: 100%;
-}
-
 
 /* appointment */
 .appointment {
