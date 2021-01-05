@@ -200,7 +200,7 @@ a:hover {
 #about-us {
     min-height: 200px;
 }
-#showcase .container {
+#about-us .container {
     display: flex;
     justify-content: space-between;
 }
@@ -208,6 +208,11 @@ a:hover {
  height: 500px;
  margin-top: 6rem;
  align-items: center;
+}
+
+/* <span style="color:#2BAAEC">Clinic</span> */
+.color {
+    color: #2BAAEC;
 }
 /* #about-us .img {
    align-self: center;
