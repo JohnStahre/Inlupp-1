@@ -55,6 +55,10 @@ a:hover {
     background-color: #25E6C8;
     font-weight: bold;
   }
+
+.btn:hover {
+    background-color: #2BAAEC;
+}
 /* Annars kan knappen fixas enligt nedan*/
 /* .btn-primary {
     background-color: #25E6C8;
@@ -140,24 +144,7 @@ a:hover {
     display: none;
 }
 
-/* about us */
-#about-us {
-    min-height: 200px;
-}
-#showcase .container {
-    display: flex;
-    justify-content: space-between;
-}
-#about-us .container img {
- height: 500px;
- margin-top: 6rem;
- align-items: center;
-}
-/* #about-us .img {
-   align-self: center;
-   margin: left;
 
-} */
 
 /* showcase */
 
@@ -208,6 +195,27 @@ a:hover {
     
 }
 
+
+/* about us */
+#about-us {
+    min-height: 200px;
+}
+#showcase .container {
+    display: flex;
+    justify-content: space-between;
+}
+#about-us .container img {
+ height: 500px;
+ margin-top: 6rem;
+ align-items: center;
+}
+/* #about-us .img {
+   align-self: center;
+   margin: left;
+
+} */
+
+
 /* appointment */
 .appointment {
     display: flex;
@@ -232,6 +240,12 @@ a:hover {
     color: #2baaec;
     background-color: #fff;
     font-weight: bold;
+}
+
+.btn-white:hover {
+    background-color:  #2baaec;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
 /* /* .text-center {
